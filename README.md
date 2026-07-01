@@ -4,7 +4,7 @@
 ## Membres du groupe
 
 - Abibou_Nokho — @Firewallx729
-- Hyacinthe Guardebaye Mouladjim — @guerdebaye
+- Hyacinthe Guerdebaye Mouledjim — @guerdebaye
 - Moussa Diakhaté — @pseudo_github_3
 
 ## Répartition du travail
@@ -12,7 +12,7 @@
 | Membre | Modules / classes développés | Contribution estimée |
 |--------|-------------------------------|----------------------|
 | Abibou_Nokho | `models/enums.py`, `models/document_base.py`, `models/livre.py`, `models/revue.py`, `models/dvd.py`, `models/memoire.py` | 33% |
-| Hyacinthe_Guardebaye_Mouladjim | `models/emprunt.py`, `models/adherent.py`, `services/bibliotheque.py`, `services/rapport.py`, `main.py` | 34% |
+| Hyacinthe_Guerdebaye_Mouledjim | `models/emprunt.py`, `models/adherent.py`, `services/bibliotheque.py`, `services/rapport.py`, `main.py` | 34% |
 | Moussa diakhaté| `exceptions/custom_exceptions.py`, `persistence/json_handler.py`, `persistence/csv_handler.py`, `persistence/db_handler.py`, `README.md` | 33% |
 
 ## Répartition par phase
@@ -21,8 +21,8 @@
 |-----------------------------------|------------------------|
 | Conception (diagramme de classes) | Abibou Nokho |
 | Implémentation POO | Abibou Nokho |
-| Logique métier (emprunts/retours) | Hyacinthe Mouladjim |
-| Interface principale (main.py) | Hyacinthe Mouladjim |
+| Logique métier (emprunts/retours) | Hyacinthe Mouledjim |
+| Interface principale (main.py) | Hyacinthe Mouledjim |
 | Persistance fichiers (JSON/CSV) | Moussa diakhaté |
 | Persistance SQL | Moussa diakhaté |
 | Exceptions personnalisées | Moussa diakhaté |
