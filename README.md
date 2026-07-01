@@ -31,6 +31,6 @@
 
 ## Difficultés rencontrées et résolution
 
-1. **Distinction agrégation / composition** — La relation entre `Bibliotheque` et `Document` est une agrégation car les documents peuvent être créés et exister indépendamment. La relation entre `Adherent` et `Emprunt` est une composition car un emprunt n'a pas de sens sans l'adhérent qui l'a initié. Résolu par Abibou Nokho  & Hyacinthe Mouladjim lors de la phase de conception.
+1. **Distinction agrégation / composition** — La relation entre `Bibliotheque` et `Document` est une agrégation car les documents peuvent être créés et exister indépendamment. La relation entre `Adherent` et `Emprunt` est une composition car un emprunt n'a pas de sens sans l'adhérent qui l'a initié. Résolu par Abibou Nokho  & Hyacinthe Mouledjim lors de la phase de conception.
 
 2. **Reconstruction des objets depuis JSON** — Lors de l'import JSON, il fallait restaurer le bon type de document (`Livre`, `Revue`, etc.) et le bon statut (`StatutDocument`) depuis des chaînes. Résolu par Étudiant Moussa diakhaté via la fonction `_reconstruire_document()` avec gestion des exceptions `KeyError`.
