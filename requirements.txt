@@ -1,0 +1,6 @@
+# Bibliothèque universitaire — Projet L2 RI — ISI Dakar 2025-2026
+# Python standard library uniquement (sqlite3, json, csv, logging, abc, enum, uuid)
+# Aucune dépendance externe requise.
+
+# Optionnel pour les tests
+pytest>=7.0
